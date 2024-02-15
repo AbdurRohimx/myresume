@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Toxic Mind</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-up">
+            <div class="text">
+                Si<span>g</span>n U<span>p</span>
+            </div>
+            <form action="" class="contact-form">
+
+                <div class="form-wrapper fast-div">
+
+                    <label for="name" class="form-label">UserName</label>
+
+                    <div class="input-wrapper">
+
+                        <input type="text" name="name" id="name" required placeholder="Type Your UserName"
+                            class="input-field">
+
+                        <ion-icon name="person-circle"></ion-icon>
+
+                    </div>
+
+                </div>
+
+                <div class="flex-div">
+                    <div class="form-wrapper-up">
+
+                        <label for="email" class="form-label">Email</label>
+
+                        <div class="input-wrapper">
+
+                            <input type="email" name="email" id="email" required placeholder="Email@gmail.com"
+                                class="input-field">
+
+                            <ion-icon name="mail"></ion-icon>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-wrapper-up">
+
+                        <label for="phone number" class="form-label">Phone Number</label>
+
+                        <div class="input-wrapper">
+
+                            <input type="number" name="email" id="email" required placeholder="Enter Number"
+                                class="input-field">
+
+                            <ion-icon name="mail"></ion-icon>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="flex-div">
+                    <div class="form-wrapper-up">
+
+                        <label for="password" class="form-label">Password</label>
+
+                        <div class="input-wrapper">
+
+                            <input type="password" name="password" id="password" required placeholder="Enter Password"
+                                class="input-field">
+
+                            <ion-icon name="lock-closed"></ion-icon>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-wrapper-up">
+
+                        <label for="password" class="form-label">Password</label>
+
+                        <div class="input-wrapper">
+
+                            <input type="password" name="password" id="password" required placeholder="Confirm Password"
+                                class="input-field">
+
+                            <ion-icon name="lock-closed"></ion-icon>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary btn-primary-up">Sign Up</button>
+
+                <div class="sign-up blank" onclick="openloginPage()">
+                    Already a member?
+                    <a href="#">Login Now</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+
+    <script>
+        function openloginPage() {
+           window.open("login.html");
+        }
+  
+     </script>
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

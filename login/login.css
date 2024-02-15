@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: grid;
+  place-items: center;
+  background: hsl(0, 0%, 16%);
+  text-align: center;
+}
+.content {
+  width: 330px;
+  padding: 40px 30px;
+  background: hsl(0, 0%, 16%);
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px hsl(0, 0%, 8%), 2px 2px 5px hsl(0, 0%, 8%);
+}
+
+input,
+button,
+select,
+textarea {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+ion-icon {
+  pointer-events: none;
+}
+
+/*-----------------------------------*\
+ * #REUSED STYLE
+\*-----------------------------------*/
+.btn {
+  max-width: max-content;
+  color: rgb(156, 156, 156);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 50px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.25s ease-in-out;
+}
+
+.btn-primary {
+  border-color: rgb(156, 156, 156);
+  padding-top: 12px;
+}
+
+.btn-primary:is(:hover, :focus) {
+  background: rgb(255, 255, 255);
+  color: hsl(24, 74%, 58%);
+  font-weight: 700;
+}
+
+/*-----------------------------------*\
+ * #CONTACT
+\*-----------------------------------*/
+
+.content .text {
+  font-size: 33px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  color: #6b6b6b;
+  font-family: "Saira Stencil One", sans-serif;
+}
+.content .text span {
+  color: hsl(24, 74%, 58%);
+  font-family: "Saira Stencil One", sans-serif;
+}
+
+.form-wrapper {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.form-label {
+  color: rgb(171, 171, 171);
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-field {
+  border: 1px solid rgb(96, 96, 96);
+  color: rgb(96, 96, 96);
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 10px;
+  transition: 0.25s ease-in-out;
+}
+
+.input-wrapper ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgb(96, 96, 96);
+  font-size: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+textarea.input-field {
+  min-height: 60px;
+  height: 120px;
+  max-height: 200px;
+  resize: vertical;
+}
+
+.input-field:focus {
+  outline: 1px solid hsl(24, 74%, 58%);
+}
+
+.input-field:focus + ion-icon {
+  color: hsl(24, 74%, 58%);
+}
+
+.forgot-pass {
+  text-align: left;
+  margin: -10px 0 20px 5px;
+}
+.forgot-pass a {
+  font-size: 14px;
+  color: #808080;
+  text-decoration: none;
+}
+.forgot-pass:hover a {
+  text-decoration: underline;
+}
+.forgot-pass a:focus {
+  color: hsl(24, 74%, 58%);
+}
+
+.sign-up {
+  margin: 15px 0;
+  color: #686868;
+  font-size: 16px;
+}
+.sign-up a {
+  color: hsl(24, 74%, 58%);
+  text-decoration: none;
+}
+.sign-up a:hover {
+  text-decoration: underline;
+}
+
+/* Sign Up Css style */
+
+.content-up {
+  width: 450px;
+  padding: 40px 30px;
+  background: hsl(0, 0%, 16%);
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px hsl(0, 0%, 8%), 2px 2px 5px hsl(0, 0%, 8%);
+}
+
+.content-up .text {
+  font-size: 33px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  color: #6b6b6b;
+  font-family: "Saira Stencil One", sans-serif;
+}
+
+.content-up .text span {
+  color: hsl(24, 74%, 58%);
+  font-family: "Saira Stencil One", sans-serif;
+}
+
+.flex-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper-up {
+  margin: 10px 10px;
+  text-align: left;
+}
+
+.fast-div {
+  width: 370px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-primary-up {
+  padding: 10px 150px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}

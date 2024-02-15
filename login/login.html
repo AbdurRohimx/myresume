@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login - Toxic Mind</title>
+   <link rel="stylesheet" href="login.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <!-- 
+    - google font link
+  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <div class="container">
+      <div class="content">
+         <div class="text">
+            Lo<span>G</span>in Fo<span>R</span>m
+         </div>
+         <form action="" class="contact-form">
+
+            <div class="form-wrapper">
+
+               <label for="name" class="form-label">Name</label>
+
+               <div class="input-wrapper">
+
+                  <input type="text" name="name" id="name" required placeholder="Type Your Name" class="input-field">
+
+                  <ion-icon name="person-circle"></ion-icon>
+
+               </div>
+
+            </div>
+
+            <div class="form-wrapper">
+
+               <label for="email" class="form-label">Email</label>
+
+               <div class="input-wrapper">
+
+                  <input type="email" name="email" id="email" required placeholder="Rohimbhaix@gmail.com"
+                     class="input-field">
+
+                  <ion-icon name="mail"></ion-icon>
+
+               </div>
+
+            </div>
+
+            <div class="form-wrapper">
+
+               <label for="password" class="form-label">Password</label>
+
+               <div class="input-wrapper">
+
+                  <input type="password" name="password" id="password" required placeholder="Enter Password"
+                     class="input-field">
+
+                  <ion-icon name="lock-closed"></ion-icon>
+
+               </div>
+
+            </div>
+            <div class="forgot-pass">
+               <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Login</button>
+
+            <div class="sign-up" onclick="openNewPage()">
+               Not a member?
+               <a href="#">Signup Now</a>
+            </div>
+
+         </form>
+      </div>
+   </div>
+
+
+   <!-- signup form -->
+
+
+
+
+
+   <script>
+      function openNewPage() {
+         window.open("signup.html", "_blank");
+      }
+
+   </script>
+   <!-- 
+    - ionicon link
+  -->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
